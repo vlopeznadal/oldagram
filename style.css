@@ -1,0 +1,96 @@
+body {
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+}
+
+/* SECTIONS */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.post-header {
+    display: flex;
+}
+
+/* LAYOUT */
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+}
+
+.post-info-container {
+    margin: 0;
+    padding-top: 11px;
+}
+
+.post-info {
+    margin: 0;
+}
+
+.post-photo {
+    width: 375px;
+}
+
+.post-body {
+    padding-left: 13px;
+    margin-bottom: 16px;
+}
+
+.post-break {
+    height: 25px;
+    background-color: #EDEDED;
+}
+
+.location {
+    font-size: 12px;
+}
+
+/* STYLING */
+
+.bold-text {
+    font-weight: 700;
+}
+
+/* IMAGES */
+
+.logo {
+    width: 127px;
+}
+
+.avatar {
+    width: 34px;
+    border-radius: 50%;
+}
+
+section .avatar {
+    padding: 10px 7px 11px 10px;
+}
+
+/* ICONS */
+
+.icons {
+    margin: 21px 0 12px 10px;
+}
+
+.icon {
+   height: 30px;
+   padding-right: 12px;
+   cursor: pointer;
+}
+
+img.icon {
+    transition: 1s ease;
+}
+
+img.icon:hover {
+    -webkit-transform: rotateZ(-10deg);
+    -ms-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg);
+    transition: 1s ease;    
+}
